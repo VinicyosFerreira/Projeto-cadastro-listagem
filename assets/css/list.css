@@ -1,0 +1,30 @@
+.lista{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.lista tr td{
+    padding: 5px;
+}
+
+.lista tr:nth-child(1){
+    vertical-align: top;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.lista a.edit{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    background-color: #eee;
+    padding: 1px 8.5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 2px;
+}
+
+button{
+    padding: 1px 6px;    
+}
